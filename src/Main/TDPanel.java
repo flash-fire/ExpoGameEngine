@@ -29,7 +29,7 @@ import Main.SoundEffect.Volume;
 import Mobs.*;
 
 public class TDPanel extends GamePanel implements MouseMotionListener {
-
+// I made a change
 	public static String mode = "EASY";
 	public static ButtonHandler buttons = new ButtonHandler();
 	public static ImageSFXs effects = new ImageSFXs();
