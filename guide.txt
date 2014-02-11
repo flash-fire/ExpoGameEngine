@@ -1,0 +1,29 @@
+GUIDE:
+
+Diabetic Tower Defense!
+
+Your goal is to maintain glucose at a semi-normal level. OVer time, your system naturally depletes of glucose, requiring you to obtain more.  There are two ways to obtain more glucose-- you can use a harvesting tower, or you can let sugar through your defense.  However, if sugar gets to high, your towers start shooting at double speed but you get no gold [>.9].  And, if it reaches 1 you lose.  Furthermore, if it reachhes 0 you also lose. On the other hand, if your glucose gets to low [depends on tower], the tower will start to fail to work until glucose reaches higher levels.
+
+The Towers:::
+
+Basic Harvester:  Very cheap and very effective tower.  Especially powerful at higher upgrades.  Top upgrade shoots 16 *powerful* bullets at a time.  The double edged sword?  Well, if you get into hyper mode, this tower becomes a basic god to most rounds.  However, this can destroy you by harvesting too much sugar!
+
+Glider:  A relatively weak but cheap tower. Pretty effective at max upgrade.  The max upgrade costs less than most towers first upgrade.  Uses very little sugar.
+
+AirPort:  Spawns many gliders.  Very powerful for the cost.  Much better deal is to buy an airport than to buy the equivalent number of gliders if you can spare the investment.
+
+Ball tower: This plasma ball launcher does quick work to lines and uses a decent amount of sugar.  Place near long corridors for maximal impact and set the aim as needed.
+
+Splash Tower:  This is a crucial tower to ANY defense.  It has the best splashing damage of all towers in game, especially at its potent max upgrade.  Place one at junctions right after you buy your first harvester ASAP.
+
+Gas Tower:  If you get this tower, and its rediculous upgrades prepare to be impressed at higher rounds.  This tower really shines at higher rounds.  It poisons a mob which explodes and shooters more gas out upon death.  At higher levels with the massive spawn rate, this causes cascades.  This is a near mandatory tower for survival at higher levels!
+
+Fast Tower:  The sugar ripping tower.  This depletes sugar FAST but it does uber damage.  This tower is great at defending small spots.  If you find yourself needed to reduce sugar, use this guy.  The final upgrade makes for a very nasty upper mid-strength tower.
+
+Tips:
+
+Beware the ides of round 8.  A nasty surprise exists.  Guard your end from attack with a splash
+The harvesters are needed after round 3.
+Don't stay in hyper mode unless necessary.  The lack of gold really hampers developement.  It's very easy to just stay in hyper mode and to get CRUSHED suddenly by the increase of the gams difficulty.
+
+Key short cuts.  B to get itno buy mode. Right click near a tower to upgrade it.  Use number keys to quick select towers.  Hit u to drop a moderately [round 9 strong] enemy on board for fun testing purposes.
