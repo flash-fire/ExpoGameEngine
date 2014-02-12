@@ -1,29 +1,39 @@
-GUIDE:
+Basic Premise
 
-Diabetic Tower Defense!
+This game is a war simulator set in medieval times. The player will begin by selecting a faction and being pitted against an enemy. Each level is a map of a territory with multiple locations that need to be defended or conquered. Owned areas will generate new fighters for the player which can be used for offense or defense. The level is won when the player owns all possible locations in the territory.
 
-Your goal is to maintain glucose at a semi-normal level. OVer time, your system naturally depletes of glucose, requiring you to obtain more.  There are two ways to obtain more glucose-- you can use a harvesting tower, or you can let sugar through your defense.  However, if sugar gets to high, your towers start shooting at double speed but you get no gold [>.9].  And, if it reaches 1 you lose.  Furthermore, if it reachhes 0 you also lose. On the other hand, if your glucose gets to low [depends on tower], the tower will start to fail to work until glucose reaches higher levels.
 
-The Towers:::
+Location Types
 
-Basic Harvester:  Very cheap and very effective tower.  Especially powerful at higher upgrades.  Top upgrade shoots 16 *powerful* bullets at a time.  The double edged sword?  Well, if you get into hyper mode, this tower becomes a basic god to most rounds.  However, this can destroy you by harvesting too much sugar!
+Basic village: first level of location. Slow to provide new soldiers. Low defensive bonus.
+Fortified town: second level location. Faster soldier production and medium defensive bonus.
+Keep: highest level. Fastest soldier production and heavy defenses.
 
-Glider:  A relatively weak but cheap tower. Pretty effective at max upgrade.  The max upgrade costs less than most towers first upgrade.  Uses very little sugar.
+-------
 
-AirPort:  Spawns many gliders.  Very powerful for the cost.  Much better deal is to buy an airport than to buy the equivalent number of gliders if you can spare the investment.
+Finances
 
-Ball tower: This plasma ball launcher does quick work to lines and uses a decent amount of sugar.  Place near long corridors for maximal impact and set the aim as needed.
+There is no cost to build new soldiers, they are generated automatically based on location levels over time. 
+income generated based on owned locations.
+Income used to upgrade locations.
 
-Splash Tower:  This is a crucial tower to ANY defense.  It has the best splashing damage of all towers in game, especially at its potent max upgrade.  Place one at junctions right after you buy your first harvester ASAP.
+-------
 
-Gas Tower:  If you get this tower, and its rediculous upgrades prepare to be impressed at higher rounds.  This tower really shines at higher rounds.  It poisons a mob which explodes and shooters more gas out upon death.  At higher levels with the massive spawn rate, this causes cascades.  This is a near mandatory tower for survival at higher levels!
+Defense
 
-Fast Tower:  The sugar ripping tower.  This depletes sugar FAST but it does uber damage.  This tower is great at defending small spots.  If you find yourself needed to reduce sugar, use this guy.  The final upgrade makes for a very nasty upper mid-strength tower.
+Locations are defended based on the number of soldiers present at the location as well as the location bonus. In order to conquer a location, a superior force must attack and defeat all present soldiers, and have a remaining attack power that is greater than the defensive bonus once all defenders are dead.
 
-Tips:
+Locations may choose to lock doors. This will stop any soldiers from leaving once they have spawned or moved to this location. When attacks are initiated, no soldiers will leave locked locations to assist.
 
-Beware the ides of round 8.  A nasty surprise exists.  Guard your end from attack with a splash
-The harvesters are needed after round 3.
-Don't stay in hyper mode unless necessary.  The lack of gold really hampers developement.  It's very easy to just stay in hyper mode and to get CRUSHED suddenly by the increase of the gams difficulty.
+Defending locations will automatically attack any soldiers that pass in their range.
+-------
 
-Key short cuts.  B to get itno buy mode. Right click near a tower to upgrade it.  Use number keys to quick select towers.  Hit u to drop a moderately [round 9 strong] enemy on board for fun testing purposes.
+Assault
+
+Assaults are initiated by clicking on a territory that is not currently owned by the player. Soldiers will leave all adjacent territories proportionately to their population until the attacking force size is obtained. They will not wait or group up, they will head straight to the target. It is possible that locations will be abandoned if necessary to fill out the attacking force.
+
+-------
+
+Soldier Movement
+
+Soldiers may be moved to other locations in the same way that an assault force is moved. If an owned location is selected, the movement will be non-hostile. Soldier movement past a hostile location will cause losses as they will be attacked in route.
