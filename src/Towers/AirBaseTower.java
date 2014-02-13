@@ -91,7 +91,7 @@ public class AirBaseTower extends AbstractTower {
 	}
 
 	private void initPic() {
-		airport = ImageLoader.createResizedCopy(ImageLoader.loadImage("resources/images/Towers/airport.png"), 30, 50, false);
+		airport = ImageLoader.createResizedCopy(ImageLoader.loadImage("resources/images/Towers/town2.png"), 325, 200, false);
 	}
 
 	@Override

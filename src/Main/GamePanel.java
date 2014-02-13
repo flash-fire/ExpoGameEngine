@@ -90,8 +90,8 @@ public abstract class GamePanel extends JPanel implements Runnable {
 		//readyForTermination(); comented er code.  
 
 		simpleInitialize();
-		//background = ImageLoader.loadScaledImage("resources/images/background/jellybeans.jpg", PWIDTH, PHEIGHT);
-		background = ImageLoader.loadScaledImage("resources/images/background/candyland2.jpg",PWIDTH, PHEIGHT, false);
+		//background = ImageLoader.loadScaledImage("resources/images/background/dirtBG.jpg", PWIDTH, PHEIGHT);
+		background = ImageLoader.loadScaledImage("resources/images/background/grassBG.jpg",PWIDTH, PHEIGHT, false);
 		
 		addMouseListener(new MouseAdapter() {
 			@Override

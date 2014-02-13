@@ -21,7 +21,7 @@ public enum GifHandler {
 	SplashTower("resources/images/Towers/Splash/", ".gif", 63, 63)
 	,Lightning("resources/images/Bullets/Lightning/", ".gif", 60, 60)
 	,bossMob("resources/images/Mobs/bossMob/", ".gif", 45, 45),
-	Mouse("resources/images/Other/flyCursor/", ".gif", 45, 45);
+	Mouse("resources/images/Other/doveCursor/", ".gif", 45, 45);
 	public BufferedImage[] sequence;
 	int playing = 0;
 

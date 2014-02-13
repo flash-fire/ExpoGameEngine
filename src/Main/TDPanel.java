@@ -42,6 +42,8 @@ public class TDPanel extends GamePanel implements MouseMotionListener {
 	private boolean showName = false;
 	private BufferedImage introScreen = ImageLoader
 			.loadImage("resources/images/intro/introScreen.png");
+	private BufferedImage buttonPost = ImageLoader
+			.loadImage("resources/images/intro/buttonPost.png");
 	private BufferedImage pattern = ImageLoader
 			.loadImage("resources/images/Shop/Pattern.png");
 	private BufferedImage sugarBag = ImageLoader
@@ -379,8 +381,8 @@ public class TDPanel extends GamePanel implements MouseMotionListener {
 			}
 		};
 		buttons.add(new Button(new String[] { "INTRO" }, new ImgButton(playB,
-				"resources/images/intro/playButton.png", PWIDTH / 5 * 2 + PWIDTH/22,
-				PHEIGHT / 3, PWIDTH/10, PWIDTH/16)));
+				"resources/images/intro/playButton.png", PWIDTH / 6,
+				PHEIGHT / 3, PWIDTH/3, PWIDTH/8)));
 
 		Updateable infoB = new Updateable() {
 			public void run() {
@@ -391,8 +393,8 @@ public class TDPanel extends GamePanel implements MouseMotionListener {
 			}
 		};
 		buttons.add(new Button(new String[] { "INTRO" }, new ImgButton(infoB,
-				"resources/images/intro/infoButton.png", PWIDTH / 5 * 2 + PWIDTH/22,
-				PHEIGHT / 3 + PWIDTH/11, PWIDTH/10, PWIDTH/16)));
+				"resources/images/intro/infoButton.png", PWIDTH / 6,
+				PHEIGHT / 3 + PHEIGHT /8, PWIDTH/3, PWIDTH/8)));
 
 		Updateable infoToggled = new Updateable() {
 			public void run() {
@@ -414,8 +416,8 @@ public class TDPanel extends GamePanel implements MouseMotionListener {
 		};
 		buttons.add(new Button(new String[] { "INTRO" }, new ImgButton(
 				optionsB, "resources/images/intro/optionsButton.png",
-				PWIDTH / 5 * 2 + PWIDTH/22,
-				PHEIGHT / 3 + 2*PWIDTH/11, PWIDTH/10, PWIDTH/16)));
+				PWIDTH / 6,
+				PHEIGHT / 3 + (2+(2/3))*(PHEIGHT /8), PWIDTH/3, PWIDTH/8)));
 
 		Updateable hsB = new Updateable() { // high score
 			public void run() {
@@ -429,8 +431,8 @@ public class TDPanel extends GamePanel implements MouseMotionListener {
 		buttons.add(new Button(new String[] { "INTRO" }, new ImgButton(
 				// intro screen button to show high score board
 				hsB, "resources/images/intro/highScoreButton.png",
-				PWIDTH / 5 * 2 + PWIDTH/22,
-				PHEIGHT / 3 + 3*PWIDTH/11, PWIDTH/10, PWIDTH/16)));
+				PWIDTH / 6,
+				PHEIGHT / 3 + 4*(PHEIGHT /8), PWIDTH/3, PWIDTH/12)));
 
 		Updateable hsToggle = new Updateable() { // high score board
 			public void run() {
@@ -559,6 +561,7 @@ public class TDPanel extends GamePanel implements MouseMotionListener {
 		hb.draw(g2d);
 		if (intro) {
 			g2d.drawImage(introScreen, 0, 0, PWIDTH, PHEIGHT, null);
+			g2d.drawImage(buttonPost, PWIDTH / 4, PHEIGHT / 4, PWIDTH/6, PWIDTH/2, null);
 		}
 		if (gameOver) {
 			if (hsm.isHighScore(score, maxScores) && !scoreSaved) {
