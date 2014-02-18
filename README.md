@@ -46,5 +46,5 @@ Assaults are initiated by clicking on a territory that is not currently owned by
 -------
 
 Soldier Movement
-
+=====
 Soldiers may be moved to other locations in the same way that an assault force is moved. If an owned location is selected, the movement will be non-hostile. Soldier movement past a hostile location will cause losses as they will be attacked in route.
